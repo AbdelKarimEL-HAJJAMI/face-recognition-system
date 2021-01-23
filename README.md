@@ -1,11 +1,14 @@
 # PCA-based-face-recognition-system
 
-Implementation of a program allowing face recognition using the PCA method w/ MATLAB
+Implementation of a MATLAB program allowing face recognition using the PCA method.
 
-A simple approach can be to do a nearest neighbours from all the faces in the training data. But a facial image can have a huge number of features as a huge number of pixels and a lot of faces in the database. So we project the faces in a lower dimensional space using a classical dimension reduction algorithm : PCA.
+=Introduction :
+This project is based on an article called Eigenfaces for recognition, written by Turk and Pentland and published in the Journal of Cognitive Neuroscience in 1991.
+This article constitutes one of the most interesting and popular applications of PCA in the field of pattern recognition. It is simply a matter of applying the PCA from very large data: images of faces. 
 
-The program uses a dataset which contains 240 images of 40 people with various facial expressions and under various lighting conditions.
+
+=Description of data : 
+We have 240 images of faces of 40 people with various facial expressions and under various lighting conditions. Each of these grayscale images is stored in a two-dimensional matrix of size 480 x 640. 
+These images constitute the training data. By vectorizing them, we can therefore represent these images by column vectors of dimension p = 480 x 640 = 307200
 The models are trained with
 
-Accuracy
-...
