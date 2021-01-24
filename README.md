@@ -1,4 +1,4 @@
-# PCA-based-face-recognition-system
+# face-recognition-system
 
 Implementation of a MATLAB program allowing face recognition using the PCA method.
 
