@@ -18,7 +18,7 @@ In this project, only 4 individuals and 4 out of 6 postures are selected to form
 
 
 
-Eigenfaces for recognition :
+Program implementation :
 -
 
 The objective of the program is to predict the image (or images) from the database that is (are) the most similar to a query image given as input.
