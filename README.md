@@ -25,6 +25,7 @@ The objective of the program is to predict the image (or images) from the databa
 
 It is inappropriate to use the p = 307200 pixels to compare the query image with each of the images in the database. The PCA is then a necessary preprocessing which consists in reducing the dimension of the data to have compact representations that best preserve the information contained in each image.
 The prediction can be defined in various ways. Among the simplest possibilities, one can look for the images of the database whose compact representations are closer (in the sense of a well-chosen distance d) to that associated with the query image.
-In this project we used the KNN Classification for the prediction.
+
+In this project we used the KNN classification method for the prediction.
 
 
