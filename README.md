@@ -1,6 +1,6 @@
 # face-recognition-system
 
-Implementation of a MATLAB program allowing face recognition using the PCA method.
+Implementation of a MATLAB program allowing face recognition using the PCA and the KNN classification methods.
 
 Introduction :
 -
