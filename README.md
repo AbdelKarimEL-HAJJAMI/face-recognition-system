@@ -24,8 +24,12 @@ Program implementation :
 The objective of the program is to predict the image (or images) from the database that is (are) the most similar to a query image given as input.
 
 It is inappropriate to use the p = 307200 pixels to compare the query image with each of the images in the database. The PCA is then a necessary preprocessing which consists in reducing the dimension of the data to have compact representations that best preserve the information contained in each image.
+
+![image](https://user-images.githubusercontent.com/66040216/115105673-b490d700-9f60-11eb-96b0-c9408172effe.png)
+
+
 The prediction can be defined in various ways. Among the simplest possibilities, one can look for the images of the database whose compact representations are closer (in the sense of a well-chosen distance d) to that associated with the query image.
 
 In this project we used the KNN classification method for the prediction.
 
-
+![image](https://user-images.githubusercontent.com/66040216/115105696-e30eb200-9f60-11eb-8203-d22798b41250.png)
