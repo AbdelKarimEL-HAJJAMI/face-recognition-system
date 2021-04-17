@@ -4,7 +4,7 @@ close all;
 taille_ecran = get(0,'ScreenSize');
 L = taille_ecran(3);
 H = taille_ecran(4);
-load donnees;
+load data;
 figure('Name','Individu moyen et eigenfaces','Position',[0,0,0.67*L,0.67*H]);
 
 
